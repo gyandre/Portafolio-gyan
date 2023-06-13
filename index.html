@@ -19,6 +19,17 @@ h2 {
   color: #555;
 }
 
+ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      margin: 0 10px;
+    }
+
 p {
   color: #777;
 }
@@ -42,12 +53,17 @@ footer {
 header {
   background-color: #ffcbcb;
   padding: 10px;
+  text-align: center;
 }
 
 img {
       width: 150px; /* Cambia este valor según tus necesidades */
       height: auto;
-    }
+      max-width: 100%;
+      margin-bottom: 20px;
+      margin: 0;
+}
+    
 
 section {
   background-color: #ffe5c7;
@@ -69,18 +85,16 @@ footer {
   <header>
     <img src="https://scontent.flim33-1.fna.fbcdn.net/v/t1.6435-9/67615998_2156996814422748_3672090720459554816_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEr_eQAtHCoVfZA_x6O4Qavi9kyrf_7cDiL2TKt__twOCO3OEyQBfdWOXs8DBF_6M_VoOtBGkHNvl_uIVE9Sn1F&_nc_ohc=Py7Kbo1cQdUAX9IkQ0H&_nc_ht=scontent.flim33-1.fna&oh=00_AfC1QdNInQEwgbiCyPAo0xTlMctmYUp3BB78Jz1eTh2Y1w&oe=64AF2151" alt="Imagen de encabezado">
     <h1>Mi Portafolio Personal</h1>
-    
-  </header>
-
-  <section>
-    <h2>Biografía</h2>
-    <p>Me llamo Giancarlo</p>
-    <p>Mis redes sociales</p>
     <ul class="social-icons">
       <li><a href="https://www.facebook.com">facebook</a></li>
       <li><a href="https://www.twitter.com">twiter</a></li>
       <li><a href="https://www.instagram.com">instagram</a></li>
     </ul>
+  </header>
+
+  <section>
+    <h2>Biografía</h2>
+    <p>Me llamo Giancarlo</p>
   </section>
 
   
@@ -116,4 +130,3 @@ footer {
   </footer>
 </body>
 </html>
-
